@@ -4,6 +4,17 @@
 
 This repository contains the analysis of 48 job applicants for AI/ML positions with a particular focus on **image processing and GAN expertise**. The analysis was conducted on May 28, 2025, using automated PDF text extraction and candidate profiling.
 
+## 🎧 Audio Reports Available
+
+**5 comprehensive audio reports** have been generated covering:
+1. **Executive Summary** - High-level overview and top recommendations
+2. **Technical Skills Analysis** - Deep dive into AI/ML frameworks and programming skills  
+3. **Cultural Fit & Personas** - Career trajectories and team dynamics
+4. **Infrastructure & Methodology** - Vector database screening system technical details
+5. **Strategic Recommendations** - Final insights and hiring strategy
+
+*Audio files are available locally and can be shared upon request. Total duration: ~13 minutes.*
+
 ## 📊 Analysis Summary
 
 ### Candidate Pool Overview
@@ -115,6 +126,8 @@ The applicant screening system uses:
 - **Document Processing:** PDF text extraction pipeline
 - **Storage:** SQLite for vector storage
 - **Similarity Matching:** Cosine distance (384 dimensions)
+- **Audio Generation:** ElevenLabs TTS with multiple professional voices
+- **Automation:** MCP Galaxy API for unified tool orchestration
 
 ## 📈 Recommendations
 
@@ -150,9 +163,9 @@ The applicant screening system uses:
 
 **Analysis Date:** May 28, 2025  
 **Total Candidates:** 48  
-**Analysis Tool:** MCP Galaxy API + Vector Search  
+**Analysis Tool:** MCP Galaxy API + Vector Search + ElevenLabs TTS  
 **Repository:** [applicant-analysis-2025](https://github.com/milkymap/applicant-analysis-2025)
 
 ---
 
-*This analysis was generated using automated tools for PDF processing and candidate profiling. All candidate information has been extracted from submitted applications.*
+*This analysis was generated using automated tools for PDF processing, candidate profiling, and audio report generation. All candidate information has been extracted from submitted applications.*
